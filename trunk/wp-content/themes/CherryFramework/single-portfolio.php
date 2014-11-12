@@ -13,6 +13,20 @@
 					<div class="<?php echo cherry_get_layout_class( 'full_width_content' ); ?>" data-motopress-type="loop" data-motopress-loop-file="loop/loop-single-portfolio.php">
 						<?php get_template_part("loop/loop-single-portfolio"); ?>
 					</div>
+                                        <div class="fb-comment">
+                                            <div id="fb-root"></div>
+                                            <script>(function(d, s, id) {
+                                                            var js, fjs = d.getElementsByTagName(s)[0];
+                                                            if (d.getElementById(id))
+                                                                return;
+                                                            js = d.createElement(s);
+                                                            js.id = id;
+                                                            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=542409615782070";
+                                                            fjs.parentNode.insertBefore(js, fjs);
+                                                        }(document, 'script', 'facebook-jssdk'));</script>
+
+                                            <fb:comments href="<?php echo get_permalink(); ?>" width="100%" num_posts="10"></fb:comments>
+                                        </div>
 				</div>
 			</div>
 		</div>

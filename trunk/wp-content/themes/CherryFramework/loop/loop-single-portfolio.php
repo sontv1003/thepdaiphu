@@ -118,7 +118,6 @@
 			<div class="<?php echo cherry_get_layout_class( 'left_block' ); ?>">
 				<?php
 					get_template_part( 'includes/post-formats/related-posts' );
-					comments_template('', true);
 				?>
 			</div>
 		</div>

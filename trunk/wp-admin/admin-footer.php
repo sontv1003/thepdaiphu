@@ -26,7 +26,7 @@ if ( !defined('ABSPATH') )
 	?>
 	<p id="footer-left" class="alignleft">
 		<?php
-		$text = sprintf( __( 'Thank you for creating with <a href="%s">WordPress</a>.' ), __( 'https://wordpress.org/' ) );
+		$text = sprintf( __( 'Website được xây dựng bởi <a href="%s">Web88.vn</a>.' ), __( 'https://www.web88.vn' ) );
 		/**
 		 * Filter the "Thank you" text displayed in the admin footer.
 		 *

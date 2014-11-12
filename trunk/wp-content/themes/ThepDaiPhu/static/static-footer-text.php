@@ -4,9 +4,12 @@
 	<?php if($myfooter_text){?>
 		<?php echo of_get_option('footer_text'); ?>
 	<?php } else { ?>
-		<a href="<?php echo home_url(); ?>/" title="<?php bloginfo('description'); ?>" class="site-name"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo-footer.png"></a><br><span>&copy; <?php echo date('Y'); ?> | <a href="<?php echo home_url(); ?>/privacy-policy/" title="<?php echo theme_locals('privacy_policy'); ?>" class='privacy'><?php echo theme_locals("privacy_policy"); ?></a></span>
 	<?php } ?>
-	<?php if( is_front_page() ) { ?>
-		<a rel="nofollow" href="http://www.templatemonster.com/wordpress-themes.php" target="_blank">TemplateMonster</a> Design. 
-	<?php } ?>
+        <div data-motopress-type="static" data-motopress-static-file="static/static-footer-text.php">
+            <div id="footer-text" class="footer-text">
+                Copyright © 2014 by Thép Đại Phú. 
+                <br>
+                Website được xây dựng bởi <a href="http://www.web88.vn" target="_blank">www.web88.vn</a>	
+            </div>		
+        </div>
 </div>
