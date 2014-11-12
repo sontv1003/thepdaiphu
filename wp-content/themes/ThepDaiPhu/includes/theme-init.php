@@ -34,7 +34,7 @@ endif;
 function my_post_type_slider() {
 	register_post_type( 'slider',
 		array( 
-			'label'               => theme_locals("slides"), 
+			'label'               => 'Trình diễn', 
 			'singular_label'      => theme_locals("slides"),
 			'_builtin'            => false,
 			'exclude_from_search' => true, // Exclude from Search Results
@@ -43,7 +43,7 @@ function my_post_type_slider() {
 			'show_ui'             => true,
 			'show_in_nav_menus'   => false,
 			'rewrite' => array(
-						'slug'       => 'slide-view',
+						'slug'       => 'trinh-dien',
 						'with_front' => FALSE,
 			),
 			'query_var' => "slide", // This goes to the WP_Query schema
@@ -62,7 +62,7 @@ add_action('init', 'my_post_type_slider');
 function my_post_type_portfolio() {
 	register_post_type( 'portfolio',
 		array( 
-				'label'             => __('Projects', CURRENT_THEME),
+				'label'             => __('Sản phẩm', CURRENT_THEME),
 				'singular_label'    => theme_locals("portfolio"),
 				'_builtin'          => false,
 				'public'            => true, 
@@ -72,7 +72,7 @@ function my_post_type_portfolio() {
 				'capability_type'   => 'page',
 				'menu_icon'         => get_template_directory_uri() . '/includes/images/icon_portfolio.png',
 				'rewrite'           => array(
-					'slug'       => 'portfolio-view',
+					'slug'       => 'san-pham',
 					'with_front' => FALSE,
 				),
 				'supports' => array(
@@ -116,13 +116,13 @@ add_action('init', 'my_post_type_testi');
 function my_post_type_services() {
 	register_post_type( 'services',
 		array( 
-				'label'             => theme_locals("services"), 
+				'label'             => 'Dịch vụ', 
 				'public'            => true, 
 				'show_ui'           => true,
 				'show_in_nav_menus' => false,
 				'menu_position'     => 5,
 				'rewrite'           => array(
-					'slug'       => 'services-view',
+					'slug'       => 'dich-vu',
 					'with_front' => FALSE,
 				),
 				'supports' => array(
@@ -138,7 +138,7 @@ add_action('init', 'my_post_type_services');
 function phi_post_type_faq() {
 	register_post_type('faq', 
 		array(
-				'label'               => theme_locals("faqs"),
+				'label'               => 'Hỏi đáp',
 				'singular_label'      => theme_locals("faqs"),
 				'public'              => false,
 				'show_ui'             => true,
@@ -146,7 +146,7 @@ function phi_post_type_faq() {
 				'_edit_link'          => 'post.php?post=%d',
 				'capability_type'     => 'post',
 				'hierarchical'        => false,
-				'rewrite'             => array("slug" => "faq"), // Permalinks
+				'rewrite'             => array("slug" => "hoi-dap"), // Permalinks
 				'query_var'           => "faq", // This goes to the WP_Query schema
 				'supports'            => array('title','author','editor'),
 				'menu_position'       => 5,
@@ -161,7 +161,7 @@ add_action('init', 'phi_post_type_faq');
 function my_post_type_team() {
 	register_post_type( 'team',
 		array( 
-				'label'               => theme_locals("our_team"), 
+				'label'               => 'Nhân sự', 
 				'singular_label'      => theme_locals("our_team"),
 				'_builtin'            => false,
 				// 'exclude_from_search' => true, // Exclude from Search Results
@@ -171,7 +171,7 @@ function my_post_type_team() {
 				'show_in_nav_menus'   => false,
 				'menu_position'       => 5,
 				'rewrite'             => array(
-					'slug'       => 'team-view',
+					'slug'       => 'nhan-su',
 					'with_front' => FALSE,
 				),
 				'supports' => array(
