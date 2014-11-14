@@ -58,8 +58,8 @@
 			'show_all' => __('Show All', $domain),
 			'search' => __('search', $domain),
 			'go' => __('Go', $domain),
-			'prev_post' => __('&laquo; Previous post', $domain),
-			'next_post' => __('Next Post &raquo;', $domain),
+			'prev_post' => __('&laquo; Phía trước', $domain),
+			'next_post' => __('Tiếp theo &raquo;', $domain),
 			'url' => __('URL', $domain),
 			'url_1' => __('URL #1', $domain),
 			'url_2' => __('URL #2', $domain),
@@ -943,7 +943,7 @@
 			'tweet_this_article' => __('Tweet this article', $domain),
 			
 			//loop-archives.php
-			'continue_reading' => __('Continue Reading', $domain),
+			'continue_reading' => __('Tiếp tục xem', $domain),
 			'pages' => __('Pages:', $domain),
 			'last_posts' => __('Last 30 Posts', $domain),
 			'archives_month' => __('Archives by Month:', $domain),
@@ -970,43 +970,43 @@
 			
 			//loop-single.php
 			'written_by' => __('Written by', $domain),
-			'view_all' => __('View all posts by', $domain),
+			'view_all' => __('Xem tất cả qua', $domain),
 			
 			//portfolio-loop.php
-			'not_found' => __('Not Found', $domain),
-			'apologies' => __('Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', $domain),
+			'not_found' => __('Không tìm thấy', $domain),
+			'apologies' => __('Không có kết quả cho tìm kiếm của bạn.', $domain),
 			
 			//static-footer-text.php
 			'powered_by' => __('is proudly powered by', $domain),
-			'entries_rss' => __('Entries (RSS)', $domain),
-			'comments_rss' => __('Comments (RSS)', $domain),
-			'privacy_policy' => __('Privacy Policy', $domain),
+			'entries_rss' => __('Bài viết (RSS)', $domain),
+			'comments_rss' => __('Nhận xét (RSS)', $domain),
+			'privacy_policy' => __('Quy định điều khoản', $domain),
 			
 			//title.php
-			'category_archives' => __('Category Archives', $domain),
-			'portfolio_category' => __('Portfolio Category', $domain),
-			'fearch_for' => __('Search for', $domain),
-			'daily_archives' => __('Daily Archives', $domain),
-			'monthly_archives' => __('Monthly Archives', $domain),
-			'yearly_archives' => __('Yearly Archives', $domain),
+			'category_archives' => __('Lưu trữ Danh Mục', $domain),
+			'portfolio_category' => __('Danh mục Sản phẩm', $domain),
+			'fearch_for' => __('Tìm kiếm cho', $domain),
+			'daily_archives' => __('Lưu trữ Hàng ngày', $domain),
+			'monthly_archives' => __('Lưu trữ Hàng tháng', $domain),
+			'yearly_archives' => __('Lưu trữ Hàng năm', $domain),
 			'by' => __('by ', $domain),
-			'tag_archives' => __('Tag Archives', $domain),
-			'portfolio_tag' => __('Portfolio Tag', $domain),
+			'tag_archives' => __('Lưu trữ Thẻ', $domain),
+			'portfolio_tag' => __('Thẻ Sản phẩm', $domain),
 			
 			//header.php
-			'category_for' => __('Category Archive for', $domain),
-			'tag_for' => __('Tag Archive for', $domain),
-			'archive' => __('Archive', $domain),
-			'error_404' => __('Error 404 Not Found', $domain),
+			'category_for' => __('Lưu trữ Danh mục cho', $domain),
+			'tag_for' => __('Lưu trữ thẻ cho', $domain),
+			'archive' => __('Lưu trữ', $domain),
+			'error_404' => __('Lỗi 404 Không tìm thấy', $domain),
 			
 			//loop-single-portfolio.php
 			'launch_project' => __('Launch Project', $domain),
 			
 			//static-not-found.php
 			'sorry' => __('Sorry!', $domain),
-			'page_not_found' => __('Page Not Found', $domain),
-			'page_you_are_looking' => __('The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.', $domain),
-			'please_try_using' => __('Please try using our search box below to look for information on the internet.', $domain),
+			'page_not_found' => __('Trang không tìm thấy', $domain),
+			'page_you_are_looking' => __('Trang bạn đang tìm kiếm có thể bị xóa hoặc thay đổi.', $domain),
+			'please_try_using' => __('Vui lòng sử dụng ô tìm kiếm dưới để tra cứu thông tin.', $domain),
 			
 			//posts_list.php
 			'posted_in' => __('Posted in', $domain),
