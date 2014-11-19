@@ -327,7 +327,10 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	text-shadow:none;
 	background:none;
 }
-.logo { margin:10px 0px; }
+.logo {
+	margin:0px;
+	top:1px;
+}
 @media (max-width: 1200px) {
 	.logo { margin:50px 0 30px 0; }
 }

@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:61:"E:\Sources\thepdaiphu/wp-content/themes/ThepDaiPhu/style.less";s:8:"compiled";s:42876:"@import url("../CherryFramework/style.css");
+a:4:{s:4:"root";s:61:"E:\Sources\thepdaiphu/wp-content/themes/ThepDaiPhu/style.less";s:8:"compiled";s:42882:"@import url("../CherryFramework/style.css");
 @import url(//fonts.googleapis.com/css?family=Tahoma:400,500,700,300);
 .main-holder { overflow:hidden; }
 @media (max-width: 767px) {
@@ -327,7 +327,10 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	text-shadow:none;
 	background:none;
 }
-.logo { margin:10px 0px; }
+.logo {
+	margin:0px;
+	top:1px;
+}
 @media (max-width: 1200px) {
 	.logo { margin:50px 0 30px 0; }
 }
@@ -1660,4 +1663,4 @@ span.icon-play-circle:before { display:none !important; }
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 }
-";s:5:"files";a:3:{s:61:"E:\Sources\thepdaiphu\wp-content\themes\ThepDaiPhu\style.less";i:1415718301;s:80:"E:\Sources\thepdaiphu\wp-content\themes\ThepDaiPhu\bootstrap\less\variables.less";i:1415293844;s:77:"E:\Sources\thepdaiphu\wp-content\themes\ThepDaiPhu\bootstrap\less\mixins.less";i:1415273456;}s:7:"updated";i:1415718307;}
+";s:5:"files";a:3:{s:61:"E:\Sources\thepdaiphu\wp-content\themes\ThepDaiPhu\style.less";i:1416399740;s:80:"E:\Sources\thepdaiphu\wp-content\themes\ThepDaiPhu\bootstrap\less\variables.less";i:1415293844;s:77:"E:\Sources\thepdaiphu\wp-content\themes\ThepDaiPhu\bootstrap\less\mixins.less";i:1415273456;}s:7:"updated";i:1416409806;}
